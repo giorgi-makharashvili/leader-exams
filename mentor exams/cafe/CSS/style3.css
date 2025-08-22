@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+
+*{
+    font-family: "Slabo 13px", serif; ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(36, 70, 36);
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(8, 42, 8);
+    box-shadow: 0px 2px 5px black;
+}
+
+#logo1{
+    width: 200px;
+}
+
+
+
+.nav1 a{
+    margin-right: 70px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition: 0.3s;
+
+}
+
+.nav1 a:hover{
+    color: rgb(76, 147, 76);
+    
+}
+
+main{
+    display: flex;
+    padding: 50px;
+    color: white;
+}
+
+.left{
+    font-size: 22px;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.bottom p{
+    margin-bottom: 20px;
+}
+
+.right{
+    width: 50%;
+    
+    
+}
+
+form{
+    font-size: 22px;
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(8, 42, 8);
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px rgb(8, 95, 8);
+    background-color: rgb(75, 137, 75);
+    height: 450px;
+    width: 400px;
+    border: 3px solid rgb(5, 44, 5);
+}
+
+form input{
+    font-size: 20px;
+    border-radius: 5px;
+    height: 30px;
+    background-color:rgb(8, 42, 8) ;
+    color:white ;
+    font-weight: 500;
+    
+}
+
+form label{
+    margin-bottom: 10px;
+}
+
+#btn2{
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(8, 42, 8);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+}
+
