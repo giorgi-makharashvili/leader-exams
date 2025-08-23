@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    font-family:"Red Hat Text";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 200vh;
+    width: 100%;
+}
+
+.container{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    padding: 30px;
+    height: 200vh;
+    width: 60%;
+}
+
+.right{
+    padding: 30px;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.right div{
+    margin-bottom: 170px;
+}
+
+.right img{
+    width: 250px;
+
+}
+
+.meals{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.heading{
+    font-weight: 700;
+    color: hsl(14, 65%, 9%);
+}
+
+.heading2{
+    font-weight: 700;
+    color: hsl(14, 86%, 42%);
+}
+
+#txt1{
+    font-size: 22px;
+    color: gray;
+}
+
+
+
+
+
+
+
+.card{
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.card button{
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 9px 5px;
+    width: 130px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    margin-top: 160px;
+    border: 3px solid hsl(12, 20%, 44%);
+    transition: 0.3s;
+    
+}
+
+.card button:hover{
+    color: hsl(14, 86%, 42%);
+    border: 3px solid hsl(14, 86%, 42%);
+
+}
+
+.card button img{
+    width: 20px;
+}
+
+.p1{
+    color: hsl(14, 25%, 72%);
+    
+}
+
+.p2{
+    color: hsl(14, 65%, 9%);
+    font-weight: 600;
+}
+
+.p3{
+    color: hsl(14, 86%, 42%);
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.top1{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+    background-image: url("./assets/images/image-waffle-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top2{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+    background-image: url("./assets/images/image-tiramisu-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top3{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+    background-image: url("./assets/images/image-panna-cotta-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top4{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+    background-image: url("./assets/images/image-meringue-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top5{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+    background-image: url("./assets/images/image-macaron-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top6{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+    background-image: url("./assets/images/image-creme-brulee-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top7{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+    background-image: url("./assets/images/image-cake-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top8{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+    background-image: url("./assets/images/image-brownie-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top9{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+    background-image: url("./assets/images/image-baklava-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+@media (max-width: 600px ){
+    .container{
+        display: block;
+    }
+    .headin{
+        font-size: 20px;
+    }
+
+    .heading2{
+        font-size: 18px;
+    }
+    .meals{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1fr);
+
+    }
+}
+
+@media (max-width: 480px){
+    .meals{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1fr);
+
+    }
+}
