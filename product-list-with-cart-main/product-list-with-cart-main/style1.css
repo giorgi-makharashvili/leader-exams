@@ -245,13 +245,15 @@ main{
     background-position: center;
 }
 
-
-
-@media (max-width: 600px ){
+@media (max-width: 1200px){
     .container{
         display: block;
     }
-    .headin{
+}
+
+@media (max-width: 600px ){
+    
+    .heading{
         font-size: 20px;
     }
 
